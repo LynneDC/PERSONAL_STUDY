@@ -1,8 +1,0 @@
-# Create a directory
-sudo("mkdir /var/www")
-
-# Create a directory as another user
-sudo("mkdir /var/www/web-app-one", user="web-admin")
-
-# Return the output
-result = sudo("ls -l /var/www")
